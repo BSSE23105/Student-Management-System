@@ -1,0 +1,76 @@
+body {
+  background-color: #61a3f5; /* light background */
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+/* Navbar styling using Bootstrap classes */
+.navbar {
+  background: linear-gradient(90deg, #5a8dee, #1b3fa0);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #fff !important;
+}
+.nav-link {
+  color: rgba(255,255,255,0.8) !important;
+  transition: color 0.2s;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #fff !important;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.card-header {
+  background-color: #5a8dee;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+/* Button styling: custom gradient and Bootstrap variants */
+.btn-custom {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1.25rem;
+  transition: opacity 0.2s;
+}
+.btn-custom:hover {
+  opacity: 0.9;
+}
+.btn-primary,
+.btn-warning,
+.btn-danger,
+.btn-secondary {
+  border-radius: 1.5rem;
+}
+
+/* Form control overrides */
+.form-control {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(102,126,234,0.3);
+}
+.invalid-feedback {
+  font-size: 0.85rem;
+  color: #e74c3c;
+}

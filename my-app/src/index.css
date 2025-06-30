@@ -1,0 +1,23 @@
+body {
+  background-color: #6ca9f3; 
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.btn-custom {
+  background: linear-gradient(45deg, #bcf02d, #83c704);
+  border: none;
+  color: white;
+}
+.btn-custom:hover {
+  opacity: 0.9;
+}

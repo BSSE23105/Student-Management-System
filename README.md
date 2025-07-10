@@ -59,4 +59,4 @@ You can perform all CRUD operations on the student records:
 `Create`: Add a new student via the “Add Student” form
 `Read`: View and search students on the “Student List” page
 `Update`: Edit any student’s details or their grades
-`Delete`: Remove a student from the list
+`Delete`: Remove a student from the list.
